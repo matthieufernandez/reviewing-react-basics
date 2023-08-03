@@ -21,8 +21,7 @@ export default function HomePage() {
           <li key={name}>{name}</li>
         ))}
       </ul>
-
-      <button onClick={handleClick}>Like ({likes})</button>
+      <button onClick={handleClick}>Likes: ({likes})</button>
     </div>
   );
 }
